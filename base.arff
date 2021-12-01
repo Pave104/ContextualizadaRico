@@ -1,0 +1,31 @@
+@relation CreditRating.symbolic
+@attribute TempoEmprego numeric
+@attribute Ocupacao {Autonomo, FuncionarioPublico, ProfissionalLiberal, Vendas, Profissional}
+@attribute TempoResidencia numeric
+@attribute StatusResidencia {Financiada, Aluguel, Propria}
+@attribute RendaMensal numeric
+@attribute NumeroDependentes numeric
+@attribute GastoMensal numeric
+@attribute EmprestimoAnteriores {sim, nao}
+@data
+
+1,ProfissionalLiberal,3,Propria,5000,1,1000,sim
+2,Vendas,4,Propria,1000,3,500,nao
+3,Autonomo,2,Propria,2000,6,233,nao
+12,ProfissionalLiberal,5,Financiada,6000,2,9283,sim
+23,Autonomo,8,Financiada,2000,6,342,nao
+12,Vendas,7,Propria,2000,367,1,sim
+2,FuncionarioPublico,8,Propria,2000,4,2109,nao
+6,ProfissionalLiberal,4,Financiada,3000,1,245,sim
+7,Profissional,5,Aluguel,5000,2,5687,sim
+9,Profissional,9,Financiada,5000,1,871,sim
+8,Autonomo,10,Financiada,4000,2,906,sim
+12,ProfissionalLiberal,12,Aluguel,1000,3,9842,nao
+16,Vendas,15,Aluguel,3000,1,1209,sim
+12,FuncionarioPublico,2,Financiada,2000,1,934,nao
+10,FuncionarioPublico,4,Financiada,7000,2,213,sim
+2,Vendas,1,Financiada,2000,6,4519,nao
+7,ProfissionalLiberal,1,Aluguel,3000,1,7239,sim
+22,FuncionarioPublico,18,Propria,2000,6,1010,nao
+21,Vendas,15,Propria,1000,3,8214,nao
+6,FuncionarioPublico,14,Propria,1000,4,6321,nao
